@@ -6,7 +6,7 @@
 
 body {
   padding-top: 54px;
-    background-color: #fefefe;
+    background-color: #Ecf0f1;
     padding-bottom: 54px;
 }
 
@@ -27,19 +27,26 @@ h6 {
     margin-bottom: 0px;
     color: 
 }
+
+.gaa-navbar{
+    background-color: #2980b9;
+    
+}
 .pagination {
   margin-bottom: 15px;
 }
 
 .match-container {
-    /*background-color: EDEDED;*/
+    background-color: white;
     border-style: solid;
-    border-color: #2980b9;
+    border-width: 0px;
+    border-color: #7f8c8d;
     margin-top: 1rem;
     padding-top: 10px;
-    border-radius: 10px;
+    border-radius: 1px;
     margin-bottom: 1rem;
-    margin-left: 
+    margin-left: ;
+    box-shadow: 2px 4px #bdc3c7;
     
 }
 
@@ -66,13 +73,13 @@ margin-left: 10px;
 .current-time-stamp
 {
     
-    background-color: #F1C40F;
+    background-color: #16a085;
     color: WHITE;
 }
 
 .update-badge
 {
-    background-color: #1abc9c;
+    background-color: #F1C40F;
     color: white;
 }
 

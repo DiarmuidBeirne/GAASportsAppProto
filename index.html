@@ -15,6 +15,19 @@
 
     <!-- Custom styles for this template -->
     <link href="css/1-col-portfolio.css" rel="stylesheet">
+      
+      <script>
+          var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+</script>
 
   </head>
 
@@ -23,8 +36,8 @@
     <!-- Navigation -->
     
       
-      <nav class="navbar fixed-top navbar-light navbar-expand-md navigation-clean-button">
-    <div class="container"><a href="#" class="navbar-brand" style="opacity: 1.00;color: #2980b9;">GAA Sports Now</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+      <nav class="navbar fixed-top navbar-light navbar-expand-md navigation-clean-button gaa-navbar" id="navbar">
+    <div class="container"><a href="#" class="navbar-brand" style="opacity: 1.00;color: white;">GAA Sports Now</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         
     </div>
 </nav>
@@ -270,7 +283,7 @@
     <!-- Footer -->
     <footer class="py-3 gaa-footer fixed-bottom">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Precious Mettle</p>
+        <p class="m-0 text-center text-white">Sick of Ads! Join Premium Today...</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -280,5 +293,6 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
+            
 
 </html>
