@@ -7,6 +7,7 @@
 body {
   padding-top: 54px;
     background-color: #fefefe;
+    padding-bottom: 54px;
 }
 
 @media (min-width: 992px) {
@@ -15,6 +16,12 @@ body {
   }
 }
 
+h5 
+{
+    
+    padding-left: 20px;
+    color: #2980b9;
+}
 h6 {
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -25,7 +32,9 @@ h6 {
 }
 
 .match-container {
-    background-color: #89e0e0;
+    /*background-color: EDEDED;*/
+    border-style: solid;
+    border-color: #2980b9;
     margin-top: 1rem;
     padding-top: 10px;
     border-radius: 10px;
@@ -37,18 +46,34 @@ h6 {
 .home-team-name 
 {
 margin-left: 10px;
+    background-color: #3498DB; 
 }
 
 .home-team-score {
     margin-left: 9px;
+    background-color: #E74C3C;
 }
 .away-team-score {
 
-    
+    background-color: #2ECC71;
 }
 
 .away-team-name {
   margin-right: 10px;
+    background-color: #3498DB;
+}
+
+.current-time-stamp
+{
+    
+    background-color: #F1C40F;
+    color: WHITE;
+}
+
+.update-badge
+{
+    background-color: #1abc9c;
+    color: white;
 }
 
 
@@ -60,6 +85,11 @@ margin-left: 10px;
 
 .top-row {
     margin-bottom: 1px;
+}
+
+.gaa-footer {
+    
+    background-color: #2980b9;
 }
 
 hr {
