@@ -32,6 +32,10 @@ h6 {
     background-color: #2980b9;
     
 }
+
+a {
+    color: black;
+}
 .pagination {
   margin-bottom: 15px;
 }
@@ -50,30 +54,49 @@ h6 {
     
 }
 
+.source-container {
+    background-color: white;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #7f8c8d;
+    margin-top: .75rem;
+    padding-top: 5px;
+    border-radius: 1px;
+    margin-bottom: .75rem;
+    margin-left: ;
+    box-shadow: 1px 3px #bdc3c7;
+    
+}
+
 .home-team-name 
 {
 margin-left: 10px;
     background-color: #3498DB; 
 }
 
-.home-team-score {
-    margin-left: 9px;
+.losing-team-score {
+   
     background-color: #E74C3C;
 }
-.away-team-score {
+.winning-team-score {
+    
+    background-color: #27ae60;
+    
+}
 
-    background-color: #2ECC71;
+.draw-team-score {
+    background-color: #E67E22;
 }
 
 .away-team-name {
-  margin-right: 10px;
+    margin-right: 10px;
     background-color: #3498DB;
 }
 
 .current-time-stamp
 {
     
-    background-color: #16a085;
+    background-color: #2ECC71;
     color: WHITE;
 }
 
@@ -103,3 +126,4 @@ hr {
     margin-bottom: .5rem;
     margin-top: .5rem;
 }
+
