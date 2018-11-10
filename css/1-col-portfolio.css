@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+    background-color: #fefefe;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+h6 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: 
+}
+.pagination {
+  margin-bottom: 15px;
+}
+
+.match-container {
+    background-color: #89e0e0;
+    margin-top: 1rem;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-left: 
+    
+}
+
+.home-team-name 
+{
+margin-left: 10px;
+}
+
+.home-team-score {
+    margin-left: 9px;
+}
+.away-team-score {
+
+    
+}
+
+.away-team-name {
+  margin-right: 10px;
+}
+
+
+.league-name {
+    
+    padding-left: 2rem
+    
+}
+
+.top-row {
+    margin-bottom: 1px;
+}
+
+hr {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}

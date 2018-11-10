@@ -2,20 +2,34 @@ body { padding-top: 70px; }
 
 h1 {text-align: center; color: white;}
 
+h3 {font-family: sans-serif; }
 
+.matchTitle {color: black; font-size: 1.5rem; text-align: left;  padding-left: 1rem; padding-top: 1rem}
 
-.matchTitle {color: #fe4a49; font-size: 1.75rem; text-align: left; font-family: 'verdana';}
-
-.match {padding-top: : 10px; padding-bottom: 10px; background-color:  #e6e6ea; border-radius: 5px}
+.match {padding-top: : 10px; padding-bottom: 5px; background-color:  #118cae; border-radius: 8px}
 
 .matchOverview {align-items: center; text-align: center;}
 
-.hdivider {margin-top: .25rem; margin-bottom: .5rem}
+.hdivider { 
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 0px;
+  
+  background-color: #000000;
+}
 
-.appDiv {background-color: #fed766}
+.appDiv {background-color: #e1ecee}
+
+.label-teamLabel {}
 
 .timeBadge {align-items: right}
 
+.bg-gaa-blue{
+    background-color: #01567b;
+}
 
-
+.top-row {
+margin: auto;    
+}
 
